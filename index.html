@@ -983,18 +983,39 @@
                                     </div>
                                 </form> -->
                                 <form target="_blank" action="https://formsubmit.co/talagamichal17@gmail.com" method="POST">
-                                    <div class="form-group">
-                                      <div class="form-row">
-                                        <div class="col-lg-6">
-                                          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="contact-name">Your Name</label>
+                                            <input class="form-control form-control-lg" name="name" id="contact-name" type="text">
                                         </div>
-                                        <div class="col-lg-12">
-                                          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                                        </div>
-                                      </div>
                                     </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="contact-phone">Phone Number</label>
+                                            <input class="form-control" name="phone" id="contact-phone" type="text">
+                                        </div>
+                                    </div>
+
                                     <div class="col-lg-12">
-                                      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                                        <div class="form-group">
+                                            <label for="contact-email">Email</label>
+                                            <input class="form-control form-control-sm" id="contact-email" name="email" type="email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="subject">subject</label>
+                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="contact-message">Your Message</label>
+                                            <textarea name="message" id="contact-message" cols="30" rows="10"></textarea>
+                                        </div>
                                     </div>
                                     <button name="submit" type="submit" id="submit" class="rn-btn">
                                         <span>SEND MESSAGE</span>
