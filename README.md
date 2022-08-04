@@ -1,1 +1,3 @@
-# MichalTalaga17.github.io
+kod portfolio
+
+michaltalaga.me
