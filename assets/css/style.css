@@ -4842,22 +4842,22 @@ Custom Row
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 /*=============================
 	Overlay styles 
@@ -8000,6 +8000,7 @@ body.template-color-1 {
   box-shadow: none;
   position: fixed;
   backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   top: 0; }
 
 .home-sticky .sticky .header-wrapper {
@@ -8092,6 +8093,7 @@ body.template-color-1 {
   box-shadow: var(--shadow-1);
   position: fixed;
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   top: 0; }
 
 .sticky .header-wrapper {
@@ -8433,7 +8435,7 @@ body.template-color-1 {
     .rn-right-demo .demo-button .text {
       -webkit-writing-mode: vertical-rl;
       writing-mode: vertical-rl;
-      text-orientation: upright;
+      -webkit-text-orientation: upright;
       padding-left: 5px;
       padding-right: 5px; }
 
