@@ -19065,33 +19065,29 @@ div#featured-project-carousel {
 
 @media only screen and (max-width: 479px) {
 
-  .rn-portfolio .inner .thumbnail a,
-  .rn-blog .inner .thumbnail a {
+  .rn-portfolio .inner .thumbnail a {
     display: inline-flex;
   }
 }
 
-.rn-portfolio .inner .content,
-.rn-blog .inner .content {
+.rn-portfolio .inner .content {
   padding-top: 18px;
 }
 
-.rn-portfolio .inner .content .category-info,
-.rn-blog .inner .content .category-info {
+.rn-portfolio .inner .content .category-info {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
 }
 
-.rn-portfolio .inner .content .category-info .category-list,
-.rn-blog .inner .content .category-info .category-list {
+.rn-portfolio .inner .content .category-info .category-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .rn-portfolio .inner .content .category-info .category-list a,
-.rn-blog .inner .content .category-info .category-list a {
+.rn-portfolio .inner .content .category-info .category-list p {
   color: var(--color-primary);
   font-weight: 500;
   font-family: var(--font-primary);
@@ -19101,35 +19097,30 @@ div#featured-project-carousel {
   display: block;
 }
 
-.rn-portfolio .inner .content .category-info .meta span,
-.rn-blog .inner .content .category-info .meta span {
+.rn-portfolio .inner .content .category-info .meta span {
   color: var(--color-lightn);
   font-weight: 500;
   font-family: var(--font-primary);
   font-size: 13px;
 }
 
-.rn-portfolio .inner .content .category-info .meta span i,
-.rn-blog .inner .content .category-info .meta span i {
+.rn-portfolio .inner .content .category-info .meta span i {
   margin-right: 2px;
   font-size: 13px;
   transition: var(--transition);
 }
 
-.rn-portfolio .inner .content .category-info .meta span a i,
-.rn-blog .inner .content .category-info .meta span a i {
+.rn-portfolio .inner .content .category-info .meta span a i {
   margin-right: 2px;
   font-size: 13px;
   transition: var(--transition);
 }
 
-.rn-portfolio .inner .content .title,
-.rn-blog .inner .content .title {
+.rn-portfolio .inner .content .title {
   margin: 0;
 }
 
-.rn-portfolio .inner .content .title a,
-.rn-blog .inner .content .title a {
+.rn-portfolio .inner .content .title a {
   transition: var(--transition);
   color: var(--color-lightn);
   font-weight: 600;
@@ -19140,15 +19131,13 @@ div#featured-project-carousel {
 
 @media only screen and (max-width: 479px) {
 
-  .rn-portfolio .inner .content .title a,
-  .rn-blog .inner .content .title a {
+  .rn-portfolio .inner .content .title {
     font-size: 20px;
     line-height: 30px;
   }
 }
 
-.rn-portfolio .inner .content .title a i,
-.rn-blog .inner .content .title a i {
+.rn-portfolio .inner .content .title a i {
   font-size: 0;
   position: relative;
   top: 10px;
@@ -19156,13 +19145,11 @@ div#featured-project-carousel {
   opacity: 0;
 }
 
-.rn-portfolio .inner .content .title:hover a,
-.rn-blog .inner .content .title:hover a {
+.rn-portfolio .inner .content .title:hover a {
   color: var(--color-primary);
 }
 
-.rn-portfolio .inner .content .title:hover a i,
-.rn-blog .inner .content .title:hover a i {
+.rn-portfolio .inner .content .title:hover a i {
   color: var(--color-primary);
   top: 3px;
   opacity: 1;
