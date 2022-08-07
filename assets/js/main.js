@@ -1,7 +1,7 @@
 (function ($) {
     'use strict';
 
-    var imJs = {
+    let imJs = {
         m: function (e) {
             imJs.d();
             imJs.methods();
@@ -57,12 +57,12 @@
         contactForm: function () {
             $('.rwt-dynamic-form').on('submit', function (e) {
 				e.preventDefault();
-				var _self = $(this);
-				var __selector = _self.closest('input,textarea');
+				let _self = $(this);
+				let __selector = _self.closest('input,textarea');
 				_self.closest('div').find('input,textarea').removeAttr('style');
 				_self.find('.error-msg').remove();
 				_self.closest('div').find('button[type="submit"]').attr('disabled', 'disabled');
-				var data = $(this).serialize();
+				let data = $(this).serialize();
 				$.ajax({
 					url: 'mail.php',
 					type: "post",
@@ -312,10 +312,10 @@
 
         backToTopInit: function () {
             // declare variable
-            var scrollTop = $('.backto-top');
+            let scrollTop = $('.backto-top');
             $(window).scroll(function () {
                 // declare variable
-                var topPos = $(this).scrollTop();
+                let topPos = $(this).scrollTop();
                 // if user scrolls down - show scroll to top button
                 if (topPos > 100) {
                     $(scrollTop).css('opacity', '1');
