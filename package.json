@@ -1,0 +1,38 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "starter for web projects with parcel",
+    "source": "src/index.html",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "scripts": {
+      "reset": "rimraf dist && rimraf .cache",
+      "start": "rimraf dist && parcel ",
+      "build": "rimraf dist && parcel build",
+      "watch": "parcel watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichalTalaga17/project-starter.git"
+    },
+    "keywords": [
+      "starter",
+      "parcel",
+      "web"
+    ],
+    "author": "Michal Talaga",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichalTalaga17/project-starter/issues"
+    },
+    "homepage": "https://github.com/MichalTalaga17/project-starter#readme",
+    "devDependencies": {
+      "@parcel/transformer-sass": "latest",
+      "autoprefixer": "latest",
+      "parcel": "latest",
+      "process": "^0.11.10",
+      "react": "latest",
+      "react-dom": "latest",
+      "rimraf": "latest",
+      "sass": "latest"
+    }
+  }
