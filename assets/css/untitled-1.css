@@ -1,0 +1,38 @@
+.hover-purple:hover {
+  background-color: var(--bs-success);
+}
+
+.hover-pink:hover {
+  background-color: var(--bs-dark);
+}
+
+.hover-blue:hover {
+  background-color: var(--bs-info);
+}
+
+.hover-green:hover {
+  background-color: var(--bs-warning);
+}
+
+.hover-yellow:hover {
+  background-color: var(--bs-light);
+}
+
+.c-resume_card {
+  text-align: left;
+}
+
+.tag_text {
+  margin-bottom: 0;
+}
+
+.single_tag.border-05 {
+  border: solid black 2px;
+}
+
+.form-control:focus {
+  box-shadow: 6px 6px 0px 0px #000 !important;
+  transition: 0ms !important;
+  border: none;
+}
+

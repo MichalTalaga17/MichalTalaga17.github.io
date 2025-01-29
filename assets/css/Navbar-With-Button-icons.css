@@ -1,0 +1,219 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.pagination {
+  --bs-pagination-color: var(--bs-link-color);
+  --bs-pagination-bg: var(--bs-body-bg);
+  --bs-pagination-border-width: var(--bs-border-width);
+  --bs-pagination-border-color: var(--bs-border-color);
+  --bs-pagination-border-radius: var(--bs-border-radius);
+  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-bg: var(--bs-tertiary-bg);
+  --bs-pagination-hover-border-color: var(--bs-border-color);
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: var(--bs-secondary-bg);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(0,0,0,0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: black;
+  --bs-pagination-active-border-color: black;
+  --bs-pagination-disabled-color: #00000092;
+  --bs-pagination-disabled-bg: #ffffff;
+  --bs-pagination-disabled-border-color: var(--bs-border-color);
+}
+
+.card {
+  --bs-card-spacer-y: 1.5rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: #000000;
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-card-cap-padding-y: 2rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+@media {
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.c-resume_cart {
+}
+
+.c-resume_card {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.c-single_language__title {
+  margin-top: 0.2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.c-single_language {
+  margin-bottom: 10px;
+}
+
+.form-label {
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.file_input {
+}
+
+.message_input {
+  min-height: 200px!important;
+  word-break: break-word;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card_inner {
+  height: 100%;
+}
+
+.section.s-hero {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.s-hero__title {
+  font-size: 23vw;
+  line-height: 85%;
+  margin-left: -10px;
+}
+
+@media (max-width: 700px) {
+  .linkspace.s-hero__linkspace {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .s-hero__title {
+    font-size: 275px;
+  }
+}
+
+.projects_loop {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 992px) {
+  .projects_loop {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.subpage_linkspace {
+}
+
+.find-me {
+  margin-top: 10rem;
+}
+
+.subpage {
+  min-height: 100vh;
+}
+
+.border-05 {
+  border: solid 2px black !important;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.single_project__github {
+  width: 100%;
+}
+
+.card-body {
+  min-height: 400px;
+}
+

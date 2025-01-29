@@ -1,0 +1,85 @@
+.section {
+  min-height: 500px;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.section {
+  height: 100% !important;
+}
+
+.border-1 {
+  border: #000 solid 4px !important;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.s-hero__ocupation {
+  margin-bottom: 0 !important;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.btn:hover {
+  box-shadow: 6px 6px 0px 0px #000;
+  transition: 0ms !important;
+}
+
+.hover-pink:hover {
+  background-color: var(--bs-dark);
+}
+
+.hover-blue:hover {
+  background: var(--bs-info);
+}
+
+.hover-green:hover {
+  background: var(--bs-warning);
+}
+
+.hover-red:hover {
+  background: var(--bs-danger);
+}
+
+.hover-yellow:hover {
+  background: var(--bs-light);
+}
+
+.hover-purple:hover {
+  background: var(--bs-success);
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  .btn-hero {
+    padding: 20px 40px 20px 40px !important;
+  }
+}
+
+.page404-title {
+  font-size: 10vw;
+}
+
+.page404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
