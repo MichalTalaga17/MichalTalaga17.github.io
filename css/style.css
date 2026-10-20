@@ -307,11 +307,21 @@ footer .social-links a:hover {
     gap: 30px;
 }
 
-.gallery-grid { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-    gap: 40px; 
-    margin-top: 60px; 
+.gallery-grid {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    margin-top: 60px;
+    padding: 0 10px 20px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: var(--fg) transparent;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gallery-grid:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 6px;
 }
 
 .email-btn {
@@ -319,10 +329,12 @@ footer .social-links a:hover {
 }
 
 .gallery-item { 
+    flex: 0 0 clamp(250px, 28vw, 340px);
     border: var(--border-width) solid var(--fg); 
     box-shadow: 6px 6px 0px 0px var(--fg); 
     overflow: hidden; 
     aspect-ratio: 9 / 19.5;
+    scroll-snap-align: start;
 }
 
 .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
@@ -360,19 +372,7 @@ footer .social-links a:hover {
 
 @media (max-width: 600px) {
     .gallery-grid {
-        display: flex;
         gap: 20px;
-        overflow-x: auto;
-        padding: 0 6px 16px 0;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: thin;
-        scrollbar-color: var(--fg) transparent;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .gallery-grid:focus-visible {
-        outline: 3px solid var(--accent);
-        outline-offset: 6px;
     }
 
     .gallery-item {
